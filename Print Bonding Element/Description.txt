@@ -1,0 +1,20 @@
+Write a program to print the elements, whose addition of adjacent elements is equal to that element (Except first and last element).
+
+Input
+
+You are provided with a set of integers separated by white spaces in a single line. You can assume the minimum value is -9999999 and the maximum value is 9999999.
+
+Output
+
+Find the elements, whose addition of adjacent elements is equal to that element and print the elements in a single separated line by white spaces (Note: The output should be in ascending order, Ex: 20 23 40).
+
+Example
+
+Input:
+13 294 24 88 64 111 47
+
+Output:
+88 111
+Explanation
+
+In the above example, 4th element (88) is addition of adjacent elements 3rd and 5th element (24 and 64) and the same for 6th element (64 + 47 = 111). And the output is already in ascending order, so no changes required in the order. Output value is 88 111
